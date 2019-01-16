@@ -23,13 +23,25 @@
 }
 .main_page{
   display:grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 4fr 1fr;
 }
 .page_body{
+  width: 500px;
+  height: 300px;
+}
+.page_body img {
+  height: 100%;
+  width: 100%;
+}
+.page_body > div{
+  padding: 1em;
+  width: 100%;
+}
+.page_sidebar{
   width: 100px;
   height: 100px;
 }
-.page_body img {
-   height: 100%;
-   width: 100%;
+.page_sidebar img {
+  height: 100%;
+  width: 100%;
 }
