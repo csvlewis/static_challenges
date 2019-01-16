@@ -1,0 +1,23 @@
+.header_1{
+  display:grid;
+  grid-template-columns: 7.5fr 1fr;
+}
+.header_1 > div{
+  background: #AA0000;
+  padding: 1.5em;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+.header_2{
+  display:grid;
+  grid-template-columns: 10fr 1fr 1fr 1.9fr;
+}
+.header_2 > div{
+  background: #333333;
+  padding: 1em;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: white;
+}
