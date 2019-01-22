@@ -1,6 +1,6 @@
 .header_1{
   display:grid;
-  grid-template-columns: 7.5fr 1fr;
+  grid-template-columns: 90% 10%;
 }
 .header_1 > div{
   background: #AA0000;
@@ -12,7 +12,7 @@
 }
 .header_2{
   display:grid;
-  grid-template-columns: 10fr 1fr 1fr 1.9fr;
+  grid-template-columns: 82% 5% 3% 5% 5%;
 }
 .header_2 > div{
   background: #333333;
@@ -26,22 +26,46 @@
   grid-template-columns: 4fr 1fr;
 }
 .page_body{
-  width: 500px;
-  height: 300px;
+  width: 1000px;
+  height: 500px;
 }
 .page_body img {
   height: 100%;
   width: 100%;
 }
 .page_body > div{
-  padding: 1em;
   width: 100%;
+  font-family: sans-serif;
+  margin: 40px 20px
+}
+.page_title{
+  font-size: 26px;
+  font-weight: bold;
 }
 .page_sidebar{
-  width: 100px;
-  height: 100px;
+  width: 300px;
+  height: 200px;
+  padding: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 16px;
 }
 .page_sidebar img {
   height: 100%;
   width: 100%;
+  display: inline-block;
+  margin: 25px 0px;
+}
+.footer {
+  padding: 1.5em;
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:30px;
+  width:100%;
+  background: #333333;
+  color: white;
+  font-family: sans-serif;
 }
